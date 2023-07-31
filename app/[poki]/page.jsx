@@ -32,7 +32,7 @@ export default async function page({params}) {
            const statName = e.stat.name;
            const statValue = e.base_stat;
           return(
-            <div className='flex items-stretch w-[500px]' key={statName}>
+            <div className='flex items-stretch w-[501px]' key={statName}>
                <h3 className='p-3 w-2/4'>{statName}: {statValue}</h3>
                <Progress className='m-auto w-2/4' value={statValue}/>
             </div>
