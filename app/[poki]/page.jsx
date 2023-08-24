@@ -1,8 +1,6 @@
 import PokiImage from '@/components/PokiImage';
 import { Progress } from '@/components/ui/progress';
 import { getPoki } from '@/lib/api';
-import Image from 'next/image';
-
 import React from 'react';
 /**
  * Fade in effect we need to have acess the client 

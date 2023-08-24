@@ -3,7 +3,7 @@ import { getPokemonList } from "@/lib/api";
 
 /**
  * 
- * Next js recommends  fetch the data on the server
+ * Next js recommends that way fetching  the data on the server
  * We want to have an interaction with the app that searches for the give pokemon
  * if it's there we will display it else we show No pokemon found
  * to have that interaction we need to use some hooks to get the input and preserve it
