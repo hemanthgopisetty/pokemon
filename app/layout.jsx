@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <p>https://github.com/hemanthgopisetty/pokemon.git</p>
+        <p className='opacity-0'>google-site-verification: googleeda34052c8fdb401.html</p>
         <ThemeProvider attribute="class" defaultTheme="dark">
         <main className="flex min-h-screen flex-col items-center p-24">
               <div className="z-10 w-full max-w-5xl items-center justify-between  text-sm lg:flex">
